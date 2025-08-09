@@ -10,7 +10,7 @@ from typing import Dict, Any, Optional
 
 @dataclass
 class BotConfig:
-    """Holds configurable parameters for the trading bot."""
+    """Holds configurable parameters for the trading bot..."""
     
     # --- General Settings ---
     
