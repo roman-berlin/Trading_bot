@@ -1,0 +1,18 @@
+symbol: EURUSD
+timeframe: M5
+risk_pct: 1.0
+max_open_trades: 1
+spread_points: 10
+commission_per_lot: 0.0
+slippage_points: 2
+strategy:
+  name: distance_time
+  window_minutes: 10    # reduced for sample
+  distance_pips: 5      # reduced for sample
+  sl_pips: 12
+  tp_rr: 1.5
+backtest:
+  csv_path: data/sample_data.csv
+  tz: UTC
+  start: null
+  end: null

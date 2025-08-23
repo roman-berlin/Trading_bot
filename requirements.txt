@@ -1,3 +1,7 @@
-MetaTrader5
-pandas
-numpy
+python-qt5
+pandas>=2.2
+numpy>=1.26
+MetaTrader5>=5.0
+PyYAML>=6.0.1
+python-dateutil>=2.9
+PyQt5>=5.15
